@@ -1,6 +1,6 @@
 #!/bin/bash
 cd poky
-oe-init-build-env bmug-build
+source oe-init-build-env ../bmug-build
 
 echo =========================================================
 echo Badger Meter Universal Gateway OS Image Build Environemnt
