@@ -1,0 +1,5 @@
+To start build:
+MACHINE=colibri-imx8x-boug bitbake boug-image-base
+
+To build update bundle:
+MACHINE=colibri-imx8x-boug bitbake update-bundle
