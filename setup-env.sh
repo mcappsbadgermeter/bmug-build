@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 cd poky
 source oe-init-build-env ../bmug-build
 
