@@ -1,5 +1,5 @@
-#!/bin/sh
-source poky/oe-init-build-env bmug-build
+#!/bin/bash
+poky/oe-init-build-env bmug-build
 
 echo Build full image:
 echo MACHINE=colibri-imx8x-boug bitbake boug-image-base
