@@ -1,4 +1,9 @@
 #!/bin/sh
+
+# remove failing file in toradex demos
+
+mv layers/meta-toradex-demos/recipes-images/images/tdx-reference-multimedia-image.bb layers/meta-toradex-demos/recipes-images/images/tdx-reference-multimedia-image.b-b 2>&1 /dev/null
+
 cd poky
 source oe-init-build-env ../bmug-build
 
