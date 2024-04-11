@@ -3,3 +3,5 @@ cache/
 uuu.inputlog
 tmp/
 templateconf.cfg
+downloads
+sstate-cache
