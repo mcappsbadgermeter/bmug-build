@@ -1,6 +1,7 @@
 #!/bin/sh
 
+localpath="../layers/meta-toradex-demos/recipes-images/images/"
 # remove failing file in toradex demos
-if [ -f  ../layers/meta-toradex-demos/recipes-images/images/tdx-reference-multimedia-image.bb  ]; then
-    mv ../layers/meta-toradex-demos/recipes-images/images/tdx-reference-multimedia-image.bb layers/meta-toradex-demos/recipes-images/images/tdx-reference-multimedia-image.b-b 
+if [ -f  ${localpath}tdx-reference-multimedia-image.bb  ]; then
+    mv ${localpath}tdx-reference-multimedia-image.bb ${localpath}tdx-reference-multimedia-image.b-b 
 fi
