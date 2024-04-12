@@ -13,5 +13,8 @@ echo or run build-image.sh
 echo Build RAUC update:
 echo MACHINE=colibri-imx8x-boug bitbake update-bundle
 echo or run build-update.sh
-echo Note: a image must be built before the update.
+echo Note: a image must be built before the update bundle.
+echo 
+echo Run fix-build.sh to correct issues that could not be 
+echo corrected in the yocto bb and bbappend files.
 echo =========================================================
