@@ -5,3 +5,5 @@ tmp/
 templateconf.cfg
 downloads
 sstate-cache
+tmp-glibc
+bitbake.lock
